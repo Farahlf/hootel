@@ -61,7 +61,6 @@ body {
 .sec-1 .row .col-6 .img {
   width: 400px;
   height: 500px;
-  background: url("/images/342b3e8e5111c3f39d727608256f0940.jpg");
   background-size: cover;
   background-position: center;
   z-index: 2;
@@ -111,10 +110,12 @@ body {
 .sec-4 {
   height: 100vh;
   color: white;
-  background-image: url(/images/back.jpg);
+  background-color: #efece5;
+  background-image: url("/images/back.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-bottom: 250px;
 }
 .sec-4 h4 {
   font-size: 60px;
@@ -173,6 +174,7 @@ body {
 /*start forum*/
 .forum {
   background-color: #e8decd;
+  padding-top: 250px;
 }
 .forum .container h2 {
   font-size: 60px;
@@ -237,4 +239,4 @@ footer div {
   justify-content: center;
   align-items: center;
   gap: 40px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
